@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/devvue.jpeg" class="rounded-image">
+  <HelloWorld msg="Hugo Silva"/>
 </template>
 
 <script>
@@ -21,6 +21,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
+  background-color:  ; /* COR DO FUNDO IMAGEM */
+}
+.rounded-image {
+  border-radius: 50%; /* Torna a imagem arredondada */
+  border: 5px solid purple; 
+  width: 400px; /* largura da imagem */
+  height: 400px; /* altura da imagem */
+  object-fit: cover; /* Mantém a qualidade da imagem */
 }
 </style>
